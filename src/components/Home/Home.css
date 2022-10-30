@@ -1,0 +1,10 @@
+#twitter{
+    background-color: rgb(207, 203, 203);
+    border: none;
+    width: 100%;
+}
+
+Button a{
+    text-decoration: none;
+    color: black;
+}
