@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Header.css'
 
 function Header() {
   return (
-    <div>
+    <div className='profile'>
       <img id='profile_image' src='nimo2.jpeg' alt='profile-image'/>
 
-      <h3>Memory Wabwile</h3>   
+      <h4>Memory Wabwile</h4>   
         
     </div>
   )

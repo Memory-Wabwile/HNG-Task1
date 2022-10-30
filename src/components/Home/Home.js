@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
     <div>
-      <h1>This is the home page</h1>
+      <Button variant="secondary" > Twiter Link</Button>{''}
     </div>
   )
 }
