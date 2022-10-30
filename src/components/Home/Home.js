@@ -14,8 +14,9 @@ function Home() {
       <Button id="book__design"  > <a href='https://books.zuri.team/design-rules' target="_blank">Design Books</a></Button>
       
       <div className='logos'>
-      <a href='http://books.zuri.team ' target="_blank" ><img id='slack' src='slackk-logo.png' alt='slack logo'/></a>
-      <a href='http://books.zuri.team ' target="_blank"><img id='github' src='githublogo.png' alt='github logo'/></a>
+      <a ><img id='slack' src='slackk-logo.png' alt='slack logo'/></a>
+      <a href='https://github.com/Memory-Wabwile' target="_blank"><img id='github' src='githublogo.png' alt='github logo'/></a>
+      
       </div>
     </div>
 

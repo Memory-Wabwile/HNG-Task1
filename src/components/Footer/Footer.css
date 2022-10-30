@@ -1,0 +1,20 @@
+.footer{
+    margin-top: 5%;
+     display: flex; 
+    flex-wrap: wrap;
+    height: 20vh; 
+    /* background-color: red; */
+   
+    
+    /* justify-content: space-between; */
+}
+#zuri{
+    padding-top: -10%;
+}
+#ingressive{
+  height: 40px;
+  
+}
+
+
+
