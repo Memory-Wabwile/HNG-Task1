@@ -1,11 +1,18 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import "./Home.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom';
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
+    
     <div>
+          <Header />
+    
+    
       <div className="links">
 
 
@@ -64,6 +71,11 @@ function Home() {
           Design Books
         </a>
 
+        <Link to="/contact"
+
+          >Contact Me</Link>
+
+        
       </div>
 
 
@@ -74,7 +86,7 @@ function Home() {
           <img id="github" src="githublogo.png" alt="github logo" />
         </a>
       </div>
-
+      <Footer/>
     </div>
   );
 }
