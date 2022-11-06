@@ -15,7 +15,7 @@ function App() {
     
       <Router>
         <Routes>
-          <Route path="" element={<Home/>}>home</Route>
+          <Route path="HNG-Task1" element={<Home/>}>home</Route>
           <Route path="/contact" element={<Contact/>} ></Route>
         </Routes>
       </Router>
